@@ -1,8 +1,18 @@
-layout_spectrum: 0.732796
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.9183657
 color:
   saturation: 0.861641
-  lightness: 0.2075118
   brandStrength: 0.4952913
   rhythmicContrast: 0.8870986
   brandColors:
@@ -11,4 +21,6 @@ color:
     - '#3B407C'
     - '#547AB1'
     - '#CEAFC0'
+  lightness: 0.2075118
+layout_spectrum: 1
 name: KsK4459a2
